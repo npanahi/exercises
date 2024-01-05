@@ -1,0 +1,301 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Marvel.com | The Official Site for Marvel Movies, Characters, Comics, TV
+    </title>
+    <meta
+      name="title"
+      content="Marvel.com | The Official Site for Marvel Movies, Characters, Comics, TV"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/all.css" />
+    <link rel="stylesheet" href="assets/styles/brands.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome.css" />
+    <link rel="stylesheet" href="assets/styles/regular.css" />
+    <link rel="stylesheet" href="assets/styles/solid.css" />
+    <link rel="stylesheet" href="assets/styles/fonts.css" />
+    <link rel="stylesheet" href="assets/styles/general.css" />
+    <link rel="stylesheet" href="assets/styles/main-homepage.css" />
+    <link rel="stylesheet" href="assets/styles/main-internalpage.css" />
+    <link rel="stylesheet" href="assets/styles/main-moviepage.css" />
+    <link rel="stylesheet" href="movie-list.js" />
+    <style>
+      .grid-6 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 10px;
+        row-gap: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var latestMovies = {
+        data: [
+          {
+            id: 1,
+            title: "l1",
+            poster: "https://cdn.marvel.com/content/1x/games_2023-1560x876.jpg",
+          },
+          {
+            id: 2,
+            title: "l2",
+            poster:
+              "https://cdn.marvel.com/content/1x/ultimate_black_panther_3_cover_card.jpg",
+          },
+          {
+            id: 3,
+            title: "l3",
+            poster: "https://cdn.marvel.com/content/1x/the_marvels2.png",
+          },
+          {
+            id: 4,
+            title: "l4",
+            poster:
+              "https://cdn.marvel.com/content/1x/wom_ms._marvel_card_image.jpg",
+          },
+        ],
+      };
+      var marvelMovies = {
+        data: [
+          {
+            id: 1,
+            poster: "assets/photos/movie-page/mm1.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 2,
+            poster: "assets/photos/movie-page/mm2.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 3,
+            poster: "assets/photos/movie-page/mm3.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 4,
+            poster: "assets/photos/movie-page/mm4.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 5,
+            poster: "assets/photos/movie-page/mm5.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 6,
+            poster: "assets/photos/movie-page/mm6.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 7,
+            poster: "assets/photos/movie-page/mm7.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 8,
+            poster: "assets/photos/movie-page/mm8.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 9,
+            poster: "assets/photos/movie-page/mm9.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 10,
+            poster: "assets/photos/movie-page/mm11.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 11,
+            poster: "assets/photos/movie-page/mm22.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 12,
+            poster: "assets/photos/movie-page/mm33.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 13,
+            poster: "assets/photos/movie-page/mm44.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 14,
+            poster: "assets/photos/movie-page/mm55.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 15,
+            poster: "assets/photos/movie-page/mm66.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 16,
+            poster: "assets/photos/movie-page/mm77.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 17,
+            poster: "assets/photos/movie-page/mm88.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 18,
+            poster: "assets/photos/movie-page/mm99.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 19,
+            poster: "assets/photos/movie-page/n1.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 20,
+            poster: "assets/photos/movie-page/n2.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+        ],
+      };
+      var otherMovies = {
+        data: [
+          {
+            id: 1,
+            poster: "assets/photos/movie-page/om1.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 2,
+            poster: "assets/photos/movie-page/om2.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 3,
+            poster: "assets/photos/movie-page/om3.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 4,
+            poster: "assets/photos/movie-page/om4.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 5,
+            poster: "assets/photos/movie-page/om5.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 6,
+            poster: "assets/photos/movie-page/om6.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 7,
+            poster: "assets/photos/movie-page/om7.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 8,
+            poster: "assets/photos/movie-page/om8.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 9,
+            poster: "assets/photos/movie-page/om9.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+          {
+            id: 10,
+            poster: "assets/photos/movie-page/om22.jpeg",
+            title: "Avengers: Secret Wars",
+            date: "MAY 7, 2027",
+          },
+        ],
+      };
+
+      function showImg(data, tag, title, className, mainClass) {
+        var mainSection = document.createElement("DIV");
+        document.body.appendChild(mainSection);
+        mainSection.classList.add = mainClass;
+        console.log(mainSection);
+        var container = document.createElement("DIV");
+        container.classList.add("container", "m-t-20");
+        document.mainSection.appendChild(container);
+        var openTitle = document.createElement(tag);
+        openTitle.innerHTML = title;
+        container.appendChild(openTitle);
+        openTitle.classList.add(
+          "m-y-35",
+          "uppercase",
+          "open-title",
+          "skew-brow"
+        );
+        var ul = document.createElement("UL");
+        ul.classList.add(className, "gap-10");
+        container.appendChild(ul);
+        data.data.forEach(function (item) {
+          var li = document.createElement("LI");
+          li.innerHTML = `<img src=${item.poster} />`;
+          li.innerHTML = `<a href="#">
+                <div class="img-wrapper">
+                  <img src=${item.poster} />
+                </div>
+                <div class="text-wrapper m-t-10">
+                  <p>${item.title}</p>
+                  <span>${item.date}</span>
+                </div>
+              </a>`;
+          ul.appendChild(li);
+        });
+      }
+      // showImg(latestMovies, "div", "latest movies", "flex-x");
+      showImg(marvelMovies, "div", "marvel movies", "grid-6", "marvel-movies");
+      // showImg(otherMovies, "div", "other movies", "grid-6");
+    </script>
+  </body>
+</html>
