@@ -1,0 +1,73 @@
+.search-hero {
+  background-color: black;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+.search-input input {
+  letter-spacing: 2;
+  text-transform: uppercase;
+  font: 800 26px/1 RobotoCondensed, Trebuchet MS, Helvetica, Arial, sans-serif;
+  border: 0;
+  border-bottom: 2px solid #151515;
+  width: 100%;
+  padding-left: 35px;
+  border-radius: 0;
+}
+.search-input button {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+  font-size: 22px;
+}
+.search-input ul {
+  font-weight: 700;
+  font-size: 14px;
+}
+.search-input ul li:first-child {
+  border-bottom: 2px solid red;
+}
+/* /////////// hype-box //////////// */
+.hype-box-wrapper {
+  right: 0;
+}
+/* /////////// latest-videos ///////////// */
+.latest-videos ul li .play-icon {
+  position: absolute;
+  color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 10px;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+  font-size: 10px;
+}
+.latest-videos ul .img-wrapper:hover .play-icon {
+  opacity: 1;
+}
+.latest-videos ul li .content a {
+  transition: color 0.2s;
+}
+.latest-videos ul li .content:hover a {
+  color: red;
+}
+
+.carousels ul {
+  width: 120px;
+  height: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.carousels ul li {
+  height: 3px;
+  background-color: #e1e1e1;
+}
+.carousels ul li:first-child {
+  background-color: red;
+}

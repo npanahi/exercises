@@ -1,0 +1,166 @@
+/*///////////// Hero-section ///////////// */
+
+.hero-section {
+  width: 100%;
+  height: 400px;
+  max-height: 500px;
+  background-image: url(../photos/movie-page/hero-bg1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.hero-section .dark {
+  height: 400px;
+  max-height: 500px;
+}
+.hero-section:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: -30px;
+  height: 50px;
+  background-color: #fff;
+  transform: rotate(-1deg);
+  clip-path: polygon(0 0, 0 100%, 100% 92%, 100% 0);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.hero-content h1 {
+  font-size: 50px;
+}
+
+/*///////////// stream ///////////// */
+.stream {
+  width: 100%;
+  height: 500px;
+}
+.stream::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../photos/movie-page/hero-bg-2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.stream::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: -30px;
+  height: 50px;
+  background-color: #fff;
+  transform: rotate(-1deg);
+  clip-path: polygon(0 0, 0 100%, 100% 92%, 100% 0);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.stream .stream-content .logo {
+  width: 175px;
+  height: 95px;
+}
+.stream .stream-content {
+  position: absolute;
+  top: 45%;
+  left: 28%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+.stream .btn.btn-red:hover {
+  background-color: #9e0113;
+}
+
+/*/ //////////// latest-movies ///////////// */
+.latest-movies {
+  color: #202020;
+}
+.latest-movies .content a {
+  transition: color 0.3s;
+}
+.latest-movies .content a:hover {
+  color: #e6252a;
+}
+.latest-movies .pages {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.latest-movies .pages li {
+  transition: color 0.3s;
+}
+.latest-movies .pages li:hover {
+  color: #e6252a;
+}
+/* /////////// marvel-movies //////////////*/
+.marvel-movies ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 10px;
+  row-gap: 15px;
+}
+.marvel-movies ul li p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.marvel-movies ul li span {
+  font-size: 11px;
+  color: #767676;
+  font-weight: 500;
+}
+.marvel-movies ul li .img-wrapper {
+  transition: all 0.2s;
+}
+.marvel-movies ul li .img-wrapper:hover {
+  transform: translate3d(0, -2%, 0);
+}
+.marvel-movies ul li .text-wrapper {
+  transition: all 0.2s;
+}
+.marvel-movies ul li:hover .text-wrapper {
+  color: #e6252a;
+}
+.marvel-movies .btn {
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* ///////// other-movies //////////// */
+.other-movies ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 10px;
+  row-gap: 15px;
+}
+.other-movies ul li p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.other-movies ul li span {
+  font-size: 11px;
+  color: #767676;
+  font-weight: 500;
+}
+.other-movies ul li .img-wrapper {
+  transition: all 0.2s;
+}
+.other-movies ul li .img-wrapper:hover {
+  transform: translate3d(0, -2%, 0);
+}
+.other-movies ul li .text-wrapper {
+  transition: all 0.2s;
+}
+.other-movies ul li:hover .text-wrapper {
+  color: #e6252a;
+}
+.other-movies .btn {
+  left: 50%;
+  transform: translateX(-50%);
+}

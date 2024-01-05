@@ -1,0 +1,868 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Marvel.com | The Official Site for Marvel Movies, Characters, Comics, TV
+    </title>
+    <meta
+      name="title"
+      content="Marvel.com | The Official Site for Marvel Movies, Characters, Comics, TV"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/all.css" />
+    <link rel="stylesheet" href="assets/styles/brands.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome.css" />
+    <link rel="stylesheet" href="assets/styles/regular.css" />
+    <link rel="stylesheet" href="assets/styles/solid.css" />
+    <link rel="stylesheet" href="assets/styles/fonts.css" />
+    <link rel="stylesheet" href="assets/styles/general.css" />
+    <link rel="stylesheet" href="assets/styles/main-homepage.css" />
+    <link rel="stylesheet" href="assets/styles/main-internalpage.css" />
+    <link rel="stylesheet" href="assets/styles/main-moviepage.css" />
+    <link rel="stylesheet" href="movie-list.js" />
+    <style>
+      .grid-6 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 10px;
+        row-gap: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="latest-movies m-y-50">
+      <div class="container">
+        <h2 class="skew-brow m-y-35">LATEST MOVIES NEWS</h2>
+
+        <ul class="flex-x align-center gap-10 m-b-40">
+          <li class="col-3">
+            <div class="img-wrapper">
+              <a href="#"> <img src="assets/photos/movie-page/l1.jpeg" /></a>
+            </div>
+            <div class="content">
+              <span class="c-g m-t-10 i-b">MOVIES</span>
+              <div class="c-0 m-t-10">
+                <a href="#">
+                  ‘The Marvels’: Kamala Khan’s Family Goes to Space</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="img-wrapper">
+              <a href="#"> <img src="assets/photos//movie-page/l2.png" /></a>
+            </div>
+            <div class="content">
+              <span class="c-g m-t-10 i-b">MOVIES</span>
+              <div class="c-0 m-t-10">
+                <a href="#">
+                  ‘The Marvels’: Kamala Khan’s Family Goes to Space</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="img-wrapper">
+              <a href="#"> <img src="assets/photos/movie-page/l3.jpg" /></a>
+            </div>
+            <div class="content">
+              <span class="c-g m-t-10 i-b">MOVIES</span>
+              <div class="c-0 m-t-10">
+                <a href="#">
+                  ‘The Marvels’: Kamala Khan’s Family Goes to Space</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="img-wrapper">
+              <a href="#"> <img src="assets/photos/movie-page/l4.png" /></a>
+            </div>
+            <div class="content">
+              <span class="c-g m-t-10 i-b">MOVIES</span>
+              <div class="c-0 m-t-10">
+                <a href="#">
+                  ‘The Marvels’: Kamala Khan’s Family Goes to Space</a
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="pages">
+          <ul class="flex-x gap-30 align-center">
+            <li>
+              <a href="#"><b>1</b></a>
+            </li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">...</a></li>
+            <li><a href="#">284</a></li>
+            <li class="flex-x gap-5 align-center justify-center">
+              <a href="#">NEXT</a
+              ><a href="#"><i class="fa-solid fa-caret-right"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="marvel-movies m-t-100">
+      <div class="container">
+        <h2 class="skew-brow m-y-50">MARVEL MOVIES</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm1.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm2.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm3.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm4.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm5.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm6.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm7.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm8.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm9.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm11.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm22.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm33.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm44.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm55.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm66.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm77.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm88.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/mm99.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n1.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n2.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n3.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n4.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n5.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n6.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n7.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n8.jpg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n9.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n11.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n22.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n33.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n44.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n55.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n66.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n77.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n88.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/n99.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Avengers: Secret Wars</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="btn btn-transparent uppercase m-t-40">Load more</div>
+      </div>
+    </div> -->
+    <!-- <div class="other-movies">
+      <div class="container">
+        <h2 class="skew-brow uppercase m-y-35">OTHER MOVIES</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om1.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>X-Men: Dark Phoenix</p>
+                <span>2019</span>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om2.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Venom</p>
+                <span>MAY 7, 2027</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om3.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Deadpool 2</p>
+                <span>2018</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om4.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Lagon</p>
+                <span>2017</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om5.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>X-Men: Apocalypse Movie Poster</p>
+                <span>2016</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om6.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Deadpool</p>
+                <span>2016</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om7.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>X-Men: Days of Future</p>
+                <span>2014</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om8.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>The Amazing Spider-Man</p>
+                <span>2012</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om9.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Spider-Man 3</p>
+                <span>2007</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om-44.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Spider-Man 2</p>
+                <span>2004</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="img-wrapper">
+                <img src="assets/photos/movie-page/om22.jpeg" />
+              </div>
+              <div class="text-wrapper m-t-10">
+                <p>Spider-Man</p>
+                <span>2002</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+    <script>
+      var latestMovies = {
+        data: [
+          {
+            id: 1,
+            title: "l1",
+            poster: "https://cdn.marvel.com/content/1x/games_2023-1560x876.jpg",
+          },
+          {
+            id: 2,
+            title: "l2",
+            poster:
+              "https://cdn.marvel.com/content/1x/ultimate_black_panther_3_cover_card.jpg",
+          },
+          {
+            id: 3,
+            title: "l3",
+            poster: "https://cdn.marvel.com/content/1x/the_marvels2.png",
+          },
+          {
+            id: 4,
+            title: "l4",
+            poster:
+              "https://cdn.marvel.com/content/1x/wom_ms._marvel_card_image.jpg",
+          },
+        ],
+      };
+      var marvelMovies = {
+        data: [
+          {
+            id: 1,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm1.jpeg",
+          },
+          {
+            id: 2,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm2.jpeg",
+          },
+          {
+            id: 3,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm3.jpeg",
+          },
+          {
+            id: 4,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm4.jpeg",
+          },
+          {
+            id: 5,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm5.jpeg",
+          },
+          {
+            id: 6,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm6.jpeg",
+          },
+          {
+            id: 7,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm7.jpeg",
+          },
+          {
+            id: 8,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm8.jpeg",
+          },
+          {
+            id: 9,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm9.jpeg",
+          },
+          {
+            id: 10,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm11.jpeg",
+          },
+          {
+            id: 11,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm22.jpeg",
+          },
+          {
+            id: 12,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm33.jpeg",
+          },
+          {
+            id: 13,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm44.jpeg",
+          },
+          {
+            id: 14,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm55.jpeg",
+          },
+          {
+            id: 15,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm66.jpeg",
+          },
+          {
+            id: 16,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm77.jpeg",
+          },
+          {
+            id: 17,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm88.jpeg",
+          },
+          {
+            id: 18,
+            title: "l1",
+            poster: "assets/photos/movie-page/mm99.jpeg",
+          },
+          {
+            id: 19,
+            title: "l1",
+            poster: "assets/photos/movie-page/n1.jpeg",
+          },
+          {
+            id: 20,
+            title: "l1",
+            poster: "assets/photos/movie-page/n2.jpeg",
+          },
+        ],
+      };
+      var otherMovies = {
+        data: [
+          {
+            id: 1,
+            title: "l1",
+            poster: "assets/photos/movie-page/om1.jpeg",
+          },
+          {
+            id: 2,
+            title: "l1",
+            poster: "assets/photos/movie-page/om2.jpeg",
+          },
+          {
+            id: 3,
+            title: "l1",
+            poster: "assets/photos/movie-page/om3.jpeg",
+          },
+          {
+            id: 4,
+            title: "l1",
+            poster: "assets/photos/movie-page/om4.jpeg",
+          },
+          {
+            id: 5,
+            title: "l1",
+            poster: "assets/photos/movie-page/om5.jpeg",
+          },
+          {
+            id: 6,
+            title: "l1",
+            poster: "assets/photos/movie-page/om6.jpeg",
+          },
+          {
+            id: 7,
+            title: "l1",
+            poster: "assets/photos/movie-page/om7.jpeg",
+          },
+          {
+            id: 8,
+            title: "l1",
+            poster: "assets/photos/movie-page/om8.jpeg",
+          },
+          {
+            id: 9,
+            title: "l1",
+            poster: "assets/photos/movie-page/om9.jpeg",
+          },
+          {
+            id: 20,
+            title: "l1",
+            poster: "assets/photos/movie-page/om22.jpeg",
+          },
+        ],
+      };
+
+      function showImg(data, tag, title, className) {
+        var container = document.createElement("DIV");
+        document.body.appendChild(container);
+        container.classList.add("container", "m-t-20");
+        var openTitle = document.createElement(tag);
+        openTitle.innerHTML = title;
+        container.appendChild(openTitle);
+        openTitle.classList.add(
+          "m-y-35",
+          "uppercase",
+          "open-title",
+          "skew-brow"
+        );
+        var ul = document.createElement("UL");
+        ul.classList.add(className, "gap-10");
+        container.appendChild(ul);
+        data.data.forEach(function (item) {
+          var li = document.createElement("LI");
+          li.innerHTML = `<img src=${item.poster} />`;
+          ul.appendChild(li);
+        });
+      }
+      showImg(latestMovies, "div", "latest movies", "flex-x");
+      showImg(marvelMovies, "div", "marvel movies", "grid-6");
+      showImg(otherMovies, "div", "other movies", "grid-6");
+    </script>
+  </body>
+</html>
